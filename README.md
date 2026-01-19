@@ -9,15 +9,15 @@ Les données brutes entre décembre 2024 et avril 2025 sont disponibles [ici](ht
 **Comprendre les différentes variables** : 
 
 Paramètres environnementaux : 
-- COND (µS/cm) → conductivité brute de l’eau (capacité à conduire un courant, liée aux ions dissous).
-- SPCOND (µS/cm) → conductivité spécifique corrigée à 25 °C (pour comparer entre différentes températures).
-- TDS (mg/L) → solides dissous totaux (masse totale de sels dissous).
+- COND (µS/cm) → conductivité brute de l’eau.
+- SPCOND (µS/cm) → conductivité spécifique corrigée à 25 °C.
+- TDS (mg/L) → solides dissous totaux.
 - SAL (PSU) → salinité en unités pratiques (0 = eau douce, ~35 = eau de mer).
-- NLF COND (µS/cm) → conductivité non corrigée de la température (valeur brute).
+- NLF COND (µS/cm) → conductivité non linéarisée.
 - TEMP (°C) → température de l’eau.
-- pH → acidité ou basicité de l’eau (7 = neutre).
-- pH mV → potentiel en millivolts mesuré par l’électrode pH (utilisé pour la calibration)
-- TURBIDITY (FNU - Formazin Nephelometric Unit) → turbidité (mesure la clarté de l’eau, plus la valeur est élevée, plus l’eau est trouble).
+- PH → acidité ou potentiel Hydrogène de l’eau (7 = neutre).
+- pH mV → potentiel en millivolts mesuré par l’électrode pH.
+- TURBIDITY (FNU - Formazin Nephelometric Unit) → turbidité (mesure la clarté de l’eau).
 
 Paramètres de la sonde :
 - CABLE PWR V → tension d’alimentation fournie par le câble.
